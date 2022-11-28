@@ -1,0 +1,708 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+body{height: 5000px;}
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: 'Alegreya', serif;
+}
+.container{
+width: 90%;
+margin: 0 auto;
+}
+.header{
+background-image: url('../img/shutterstock_277750193.jpg');
+ background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+    width: 100%;
+ 
+}
+.header .nav .logo{
+    float: left;
+}
+.header .nav .logo img{
+    margin-top: 25px;
+    margin-left: 30px;
+    width: 55%;
+}
+.header .nav .list-items{
+    float: left;   
+}
+.header .nav .list-items ul{
+    list-style: none;
+    margin-left :510px;
+    margin-top: 45px;
+    font-size: 23px;
+}
+.header .list-items .list-item{
+    display: inline-block;
+    margin-right:15px;
+}
+.header .list-items .list-item a{
+    color: #dddddd;
+transition: .2s all ease-in-out;
+    text-decoration: none;
+}
+.header .list-items .list-item a:hover{
+color:rgb(233, 95, 79);
+}
+
+.nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.5);
+    width: 100%;
+    padding-bottom: 10px;
+}
+/* end navbar */
+/* start main page */
+.main{
+    width: 80%;
+    margin: 110px auto 10px auto;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.main h1{
+    font-size: 76px;
+   color: #fff;
+font-weight: 400;
+/* font-family: 'Lora', serif; */
+}
+.main h2{
+    font-family: 'Dancing Script', cursive;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 74.4px;
+
+}
+.main .btn{
+    padding: 15px 28px;
+    border-radius: 5px;
+    border:2px solid transparent;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.86em;
+cursor: pointer;
+
+
+}
+.main .learn-more{
+    background-color: rgb(193,171,132);
+    color:#fff;
+    margin-right: 10px;
+    transition: .4s ease-in-out all;
+}
+.main .learn-more:hover{
+    background-color: #fff;
+    color: #000;
+}
+.main .visit-a-book{
+    transition: .2s ease-in-out all;
+}
+.main .visit-a-book:hover{
+background-color:#948e8e;
+}
+/*end main section*/
+
+/* start about section */
+.about{
+    margin-top: 30px;
+    overflow: hidden;
+}
+.about .chef-pic{
+    float: left;
+    width: 30%;
+}
+.about-paraghraph{
+    float: left;
+    width: 45%;
+    height: 90%;
+    margin: 100px 140px;
+}
+
+.about .about-paraghraph h2{
+color:rgb(37,48,72);
+ font-size: 38px;
+ font-weight: 400;
+ margin-top: 15px;
+ line-height: 33.48px;
+ text-size-adjust: 100%;
+}
+ .about .about-paraghraph h3{
+ color:rgb(193,171,132);
+ margin-top: 15px;
+font-size: 30px;
+font-family: 'Dancing Script', cursive;
+font-weight: 400;
+ }
+ .about .about-paraghraph p{
+margin-top: 25px;
+color: rgb(104,104,104);
+font-size: 21px;
+line-height: 33.48px;
+margin-bottom: 15px;
+ }
+ .about .icons div{
+    margin-bottom: 10px;
+ }
+ .icon{
+width: 54px;
+height: 54px;
+line-height: 52px;
+text-align: center;
+background-color:rgb(193,171,132);
+border-radius: 50%;
+color: #fff;
+font-size: 25px;
+margin-bottom: 6px;
+}
+.icons span{
+    color: rgb(104,104,104);
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 33.48px;
+    text-align: left;
+    margin-left: 10px;
+}
+/* end about section */
+
+/* start review section */
+.review{
+    padding-top: 40px;
+    overflow: hidden;
+    background-image: linear-gradient(to bottom, rgba(247, 243, 243, 0.822), rgb(255, 255, 255));
+}
+.review-paraghraph{
+    margin-left: 20px;
+    float: left;
+    width: 50%;
+}
+.pic-review{
+    float: left;
+width: 40%;
+}
+.pic-review img{
+    width: 100%;
+    margin-left: 20px;
+}
+.review-paraghraph  h2{
+color:rgb(37,48,72);
+font-size: 38px;
+font-weight: 400;
+margin-top: 15px;
+line-height: 33.48px;
+text-size-adjust: 100%;
+    }
+.review .review-paraghraph  h3{
+color:rgb(193,171,132);
+margin-top: 15px;
+font-size: 30px;
+font-family: 'Dancing Script', cursive;
+font-weight: 400;
+}
+.review .review-paraghraph p{
+ margin-top: 25px;
+ color: rgb(104,104,104);
+font-size: 21px;
+line-height: 33.48px;
+margin-bottom: 15px;
+ }
+ .review .review-paraghraph div{
+margin-bottom: 10px;
+     }
+.icon{
+        width: 54px;
+height: 54px;
+line-height: 52px;
+text-align: center;
+background-color:rgb(193,171,132);
+border-radius: 50%;
+color: #fff;
+font-size: 25px;
+margin-bottom: 6px;
+ }
+.icons span{
+color: rgb(104,104,104);
+font-size: 19px;
+font-weight: 400;
+line-height: 33.48px;
+text-align: left;
+margin-left: 10px;
+    }
+
+/* end review section */
+
+/*start about secton*/
+.about{
+    overflow: hidden !important;
+}
+.chef-pic{
+    float: left !important;
+    width: 40% !important;
+}
+.about-paraghraph
+{
+    margin-left: 50px;
+    float: left !important;
+    width: 40% !important;
+}
+/*start cover section*/
+
+
+.cover{
+    margin-top: 50px;
+background-image: url('../img/shutterstock_280369721.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+background-attachment: fixed;
+    height: 440px;
+}
+/*end cover section */
+
+/*start album section*/
+
+.album{
+    background-image: linear-gradient(to bottom, rgba(247, 243, 243, 0.822), rgb(255, 255, 255));
+    margin-top: 60px;
+    width: 100%;
+    text-align: center;
+}
+.album h2{
+    color: rgb(37,48,72);
+    font-size: 36px;
+    font-weight: 400;
+}
+.album h4{
+    color: rgb(193,171,132);
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.second-row img{
+width: 222px !important;
+height: 222px !important;
+}
+.first-row ,.second-row{
+    overflow: hidden;
+}
+.food{
+    float: left;
+    width: 33%;
+}
+.food img{
+    width: 370.228px !important;
+    height: 355.266px;
+}
+.food h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(37,48,72);
+    font-size: 22px;
+    font-weight: 400;
+}
+.food p{
+    color: rgb(104,104,104);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33.48px;
+    padding-bottom: 40px;
+}
+.full-menu{
+    font-family: 'Alegreya Sans';
+    margin-top: 60px;
+    background-color: rgb(193,171,132);
+    border: none;
+    font-size: 18px;
+    border-radius: 3px;
+    cursor: pointer;
+    color: #fff;
+    padding: 20px;
+}
+/*start cover2 */
+.cover2{
+    margin-top: 70px;
+    background-image: url('../img/shutterstock_277750193.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.content{
+    text-align: center;
+  color:#fff;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 60.48px;
+  font-family:Arial, Helvetica, sans-serif
+}
+.content h3{
+
+    margin-bottom: 30px;
+}
+.content h4{
+font-size: 18px;
+}
+.content h5{
+    font-size: 16px;
+}
+.cover2 .comment{
+    margin-top: 140px;
+    margin-bottom: 70px;
+    font-size: 40px;
+}
+.right-left{
+   margin-top: -20px;
+}
+.fa-circle-left:hover{
+   cursor: pointer;
+}
+.fa-circle-right:hover{
+    cursor: pointer;
+ }
+/*end cover2 */
+/*start map section*/
+.where-are-we{
+    overflow: hidden;
+    margin-top: 70px;
+}
+.content-info{
+    float:left;
+    width: 40%;
+    margin-right: 70px;
+}
+.content-info h2{
+    color: #253048;
+    font-size: 36px;
+    font-weight: 400;
+}
+.content-info p{
+    margin-top: 20px;
+    line-height: 1.86em;
+    margin-bottom: 20px;
+    color:rgb(104,104,104);
+    font-size: 18px;
+    font-weight: 400;
+}
+.contact-icon div{
+    margin-bottom: 13px;
+}
+.contact-icon span{
+    margin-bottom: 20px;
+    color:rgb(104,104,104);
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 5px;
+}
+.contact-icon i{
+    color:#fff;
+    background-color: rgb(193,171,132);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    line-height: 50px;
+    text-align: center;
+}
+.map{
+    float:left;
+    width: 40%;
+}
+/*end map section*/
+/*start help section*/
+.help{
+    background-color: #403d38;
+    overflow:hidden;
+    padding-bottom: 20px;
+}
+
+.help h3{
+    padding-top: 50px;
+    padding-bottom: 40px;
+    color: #fff;
+    font-size: 20px;
+    text-shadow: none;
+    font-family: 'Roboto', sans-serif
+}
+.help p{
+    color: #A9A9A9;
+}
+
+.about-us,.usful-link,.opening-hours,.contact-detailes{
+    float: left;
+    width: 20%;
+    margin-right: 50px;
+}
+.usful-link{
+    padding-top: 500xp;
+}
+.usful-link span{
+ color: #A9A9A9;
+
+ padding-bottom: 10px;
+}
+.usful-link i{
+    color: #A9A9A9;
+}
+.usful-link .put-line,.opening-hours .put-line ,.contact-detailes .put-line{
+    border-bottom: 1px rgba(168, 166, 166, 0.719) solid;
+}
+.usful-link div{
+
+ padding: 15px 0;
+}
+.opening-hours div{
+
+    padding: 15px 0; 
+    color: #A9A9A9; 
+}
+.contact-detailes div{
+
+    padding: 15px 0; 
+    color: #A9A9A9; 
+}
+
+/*end help section*/
+/*start footer*/
+.footer{
+padding-top: 20px;
+ background: rgb(53,51,48);
+ text-align: center;
+ padding-bottom: 30px;
+}
+.footer p{
+    color: rgb(119,119,119);
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.footer .social-media .fa-brands{
+    color:rgb(140,138,134);
+    background-color: rgb(72,69,64);
+    width: 55px;
+    height: 55px;
+    border-right: 3px;
+    font-size: 20px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 55px;
+}
+.footer .social-media .fa-facebook-f,
+.footer .social-media .fa-instagram ,
+.footer .social-media .fa-tumblr,
+.footer .social-media .fa-twitter
+{
+    transition: .4s all ease-in-out;
+}
+.footer .social-media .fa-facebook-f:hover{
+    color: #fff;
+    cursor: pointer;
+    background-color: #0275d8;
+}
+.footer .social-media .fa-instagram:hover{
+    color: #fff;
+    cursor: pointer;
+    background-color: #4682B4;
+}
+.footer .social-media .fa-tumblr:hover{
+    color: #fff;
+    cursor: pointer;
+    background-color: #4682B4;
+}
+.footer .social-media .fa-twitter:hover{
+    color: #fff;
+    cursor: pointer;
+    background-color: #1DA1F2;
+}
+.scrol
+{
+    position: fixed;
+    right:0;
+    top:100px;
+    background-color: #f8f8f8;
+    width:50px;
+    height: 100px;
+    z-index: 99999;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+.scrol ul li{
+    list-style: none;
+}
+.scrol ul li a{
+    color:rgb(53,51,48);
+        padding-top: 20px;
+        font-size: 20px;
+        margin-left: 10px;
+        display: block;
+}
+/*end footer*/
+/* start media query */
+
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (max-width: 768px){ 
+  .main img{
+width: 60%;
+  }
+ 
+  .about-paraghraph{
+    width: 100%;
+    float:center;
+    margin-left: -1px;
+  }
+  .chef-pic{
+    margin: -7px;
+    flex: none;
+  }
+  .about-paraghraph{
+    flex: none !important;
+    width: 150% !important;
+  }
+  .second-row img{
+    width: 111px;
+    height: 111px;
+ }
+ .first-row img{
+     width: 111px;
+     height: 111px; 
+ }
+ .food h3{
+    font-size: 15px;
+    font-weight: bold;
+ }
+ .food p{
+    background-color: #cec9c9;
+    margin-right: 1px;
+ }
+ .map{
+    display:none;
+ }
+ .content-info{
+    float: none;
+    width: 100%;
+ }
+ .about-us{
+    float: none;
+    width: 100%;  
+ }
+ .usful-link{
+    float: none;
+    width: 100%;
+ }
+ .opening-hours{
+float: none;
+ width: 100%;
+ }
+.contact-detailes{
+ float: none;
+ width: 100%; 
+}
+.nav{
+    background-color: transparent;
+}
+
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .nav{
+      margin-top: -10px;
+    }
+  
+    .about-paraghraph{
+        width: 100%;
+        float:center;
+        margin-left: -1px;
+      }
+    .second-row img{
+       width: 222px;
+       height: 222px;
+    }
+    .first-row img{
+        width: 222px;
+        height: 222px; 
+    }
+    .map{
+        width: 30%;
+    }
+    .where-are-we{
+        overflow: hidden;
+    }
+
+    }
+
+
+/* Large devices (desktops, 992px and up) */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
